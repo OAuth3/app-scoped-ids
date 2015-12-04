@@ -1,0 +1,26 @@
+{
+  "name": "app-scoped-ids",
+  "version": "1.0.0",
+  "description": "Create deterministic and cryptographically secure App-Scoped IDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OAuth3/app-scoped-ids.git"
+  },
+  "keywords": [
+    "app-scoped-id",
+    "app-scoped-ids",
+    "id",
+    "ids",
+    "app-scoped"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/OAuth3/app-scoped-ids/issues"
+  },
+  "homepage": "https://github.com/OAuth3/app-scoped-ids"
+}
