@@ -6,9 +6,21 @@ Create deterministic and cryptographically secure App-Scoped IDs by applying AES
 It is important to note that the IV (initialization vector) is set to null (all 0s) because we explicitly want deterministic values
 (and we wouldn't want to waste space for attaching the iv anyway).
 
+Install
+=======
+
 ```bash
 npm install --save app-scoped-ids
 ```
+
+API
+===
+
+* `scoper.scope(id, appSecret)`
+* `scoper.unscope(id, appSecret)`
+
+Example
+=====
 
 ```javascript
 'use strict';
