@@ -25,7 +25,7 @@ Example
 ```javascript
 'use strict';
 
-var scoper = require('./');
+var scoper = require('app-scoped-ids');
             // require('crypto').randomBytes(16).toString('hex');
 var appSecret = new Buffer('84b1a5bf7583767508005345381507c1', 'hex');
 
